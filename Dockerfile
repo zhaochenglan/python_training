@@ -3,4 +3,4 @@ RUN mkdir /app
 ADD . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-CMD ["/bin/python", "hello.py"]
+CMD ["/usr/bin/python2.7", "hello.py"]
